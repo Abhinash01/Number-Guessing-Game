@@ -1,5 +1,5 @@
 body {
-    background-color: #f4f4f4;
+    background-color: #000;
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -27,6 +27,11 @@ body {
     cursor: pointer;
   }
   
+  button:hover{
+    background-color: #000;
+    color: #fff;
+ }
+
   #result {
     margin-top: 15px;
     font-weight: bold;
